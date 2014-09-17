@@ -71,11 +71,11 @@ int main(){
 	       	    F = (funcionario *) menu_funcionarios(F);
 		    break;
                case '5':	
-	       	    printf("\nTem certeza que deseja fechar a aplicação? (S/N)");
+	       	    printf("\nTem certeza que deseja fechar o sistema? (S/N)");
  		    op2 = getche();
 		    if (toupper(op2) == 'S'){
 	    	       system("CLS");
-	    	       printf("Fechando a aplicação!");
+	    	       printf("Fechando o sistema!");
 	     	       exit(1);
 	            }else{
      	    	       break;
