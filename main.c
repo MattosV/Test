@@ -75,7 +75,7 @@ int main(){
  		    op2 = getche();
 		    if (toupper(op2) == 'S'){
 	    	       system("CLS");
-	    	       printf("Fechando a aplicação!");
+	    	       printf("Fechando o sistema!");
 	     	       exit(1);
 	            }else{
      	    	       break;
